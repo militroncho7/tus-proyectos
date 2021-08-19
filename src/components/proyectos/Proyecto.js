@@ -4,7 +4,7 @@ import tareaContext from '../../context/tareas/tareaContext';
 
 const Proyecto = ({proyecto}) => {
 
-    //obtener state formulario
+    //obtener state de proyectos
     const proyectosContext = useContext(proyectoContext);
     const { proyectoActual } = proyectosContext;
 
