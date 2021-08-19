@@ -2,7 +2,7 @@
 
 # Adminsitrador de Proyectos 👨🏻‍💻
 
-App web en el que puedes administrar diferentes proyectos e incluir tareas, editarlas, eliminar, cambiar el estado de ellas. Perfecto para organizar tus obejtivos del día a día! [tusProyectos 📝](https://ecstatic-jennings-eb4ec2.netlify.app).
+App web en el que puedes administrar diferentes proyectos e incluir tareas, editarlas, eliminarlas, cambiar el estado de ellas... Perfecto para organizar tus obejtivos del día a día! [tusProyectos 📝](https://ecstatic-jennings-eb4ec2.netlify.app).
 
 ## Sitio Web
 ---
@@ -39,6 +39,8 @@ Creación de los componentes para poder iniciar sesión o crear una nueva cuenta
 Posteriormente avanzamos con los diferentes elementos de la página de Proyectos, la cual es privada y sólo se podrá acceder a ella si el usuario está logeado. Aquí aparecerán los diferentes proyectos y tareas que el usuario cree.
 
 ### Tareas
+La parte más compleja. aquí se encuentran las tareas de cada proyecto.
+En este apartado se puede editar, añadir, cambiar el estado de las tareas o incluso eliminarlas
 ---
 
 
