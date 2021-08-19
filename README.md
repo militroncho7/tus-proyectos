@@ -1,31 +1,26 @@
 ![logo-tus-proyectos](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1629360773/tus-proyectos/tus-proyectos-titulo_xx9bka.png)
 
-# Adminsitrador de Citas - Clínica Veterinaria
+# Adminsitrador de Proyectos 👨🏻‍💻
 
-Aplicación web que administra las citas de una clínica veterinaria [LovePets 🧡](https://ecstatic-jennings-eb4ec2.netlify.app).
+App web en el que puedes administrar diferentes proyectos e incluir tareas, editarlas, eliminar, cambiar el estado de ellas. Perfecto para organizar tus obejtivos del día a día! [tusProyectos 📝](https://ecstatic-jennings-eb4ec2.netlify.app).
 
 ## Sitio Web
 ---
-![Sitio web](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610628299/LovePets/screencapture-ecstatic-jennings-eb4ec2-netlify-app-2021-01-14-13_39_24_t5nlyc.png)
+![Sitio web](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1629360773/tus-proyectos/tus-proyectos-macbook_umicc6.png)
 
-App realizada mediante la libería React.js.
+App realizada mediante la libería React, Mongo, Express & Node.
 
 - Creada con componentes funcionales
-- Manenjando los diferentes estados en el formulario (Hook useState)
+- Manenjando los diferentes estados en el formulario (Hook useState y useContext)
 - Validación de formularios
 - Asignación de IDs únicos
 - Reinicio del formulario cuando lo envía el usuario
-- Visualizacióon de las nuevas citas
-- Mensaje condicional en función de las citas
-- Guardamos la información en LocalStorage (mediante el hook useEffect)
-- Documentando con PropTypes
-- Deployment del proyecto (netlify).
+- Mensajes de error 
+- Componentes condicionales
 - Totalmente Responsive:
 ---
-![Responsive](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1610630532/LovePets/iphone_1_1_ilbyg3.png)
+![Responsive](https://res.cloudinary.com/dhd9jgrw3/image/upload/v1629360773/tus-proyectos/tus-poyectos-iphone_sfpjpb.png)
 
-# Tus Proyectos 👨🏻‍💻
-This project was bootstrapped with Create React App.
 
 ## Primeros pasos
 Creando la estructura:
