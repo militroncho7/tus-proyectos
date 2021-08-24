@@ -50,7 +50,7 @@ const NuevaCuenta = () => {
         //Pasarlo al action
         //************************************VIDEO264
 
-    }
+    };
 
     return (
         <div className="form-usuario">

@@ -38,7 +38,7 @@ Creación de los componentes para poder iniciar sesión o crear una nueva cuenta
 ### Página Proyectos:
 Posteriormente avanzamos con los diferentes elementos de la página de Proyectos, la cual es privada y sólo se podrá acceder a ella si el usuario está logeado. Aquí aparecerán los diferentes proyectos y tareas que el usuario cree.
 
-### Tareas
+### Tareas:
 La parte más compleja. aquí se encuentran las tareas de cada proyecto.
 En este apartado se puede editar, añadir, cambiar el estado de las tareas o incluso eliminarlas
 ---
