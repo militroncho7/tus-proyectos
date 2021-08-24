@@ -42,12 +42,6 @@ Posteriormente avanzamos con los diferentes elementos de la página de Proyectos
 La parte más compleja. aquí se encuentran las tareas de cada proyecto.
 En este apartado se puede editar, añadir, cambiar el estado de las tareas o incluso eliminarlas.
 
-### Tareas:
-La parte más compleja. aquí se encuentran las tareas de cada proyecto.
-En este apartado se puede editar, añadir, cambiar el estado de las tareas o incluso eliminarlas
-
-
-
 ### Cómo contribuir
 ---
 Toda aportación o comentario será recibido de buen gusto, ya que con ellos se podrá ayudar a crecer tanto a la app como a nosotros como desarrolladores.
