@@ -40,8 +40,12 @@ Posteriormente avanzamos con los diferentes elementos de la página de Proyectos
 
 ### Tareas:
 La parte más compleja. aquí se encuentran las tareas de cada proyecto.
+En este apartado se puede editar, añadir, cambiar el estado de las tareas o incluso eliminarlas.
+
+### Tareas:
+La parte más compleja. aquí se encuentran las tareas de cada proyecto.
 En este apartado se puede editar, añadir, cambiar el estado de las tareas o incluso eliminarlas
----
+
 
 
 ### Cómo contribuir
