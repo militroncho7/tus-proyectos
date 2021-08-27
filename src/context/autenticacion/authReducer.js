@@ -1,4 +1,4 @@
-import {
+import { 
     REGISTRO_EXITOSO,
     REGISTRO_ERROR,
     OBTENER_USUARIO,
@@ -19,11 +19,11 @@ export default (state, action) => {
                 mensaje: null,
                 cargando: false
             }
-        case OBTENER_USUARIO:
+        case OBTENER_USUARIO: 
             return {
                 ...state,
                 autenticado: true,
-                usuario: action.payload,
+                usuario: action.payload, 
                 cargando: false
             }
         case CERRAR_SESION:
@@ -35,11 +35,11 @@ export default (state, action) => {
                 token: null,
                 usuario: null,
                 autenticado: null,
-                mensaje: action.payload,
+                mensaje: action.payload, 
                 cargando: false
             }
         
         default:
             return state;
-    };
-};
+    }
+}

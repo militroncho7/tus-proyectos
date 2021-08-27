@@ -3,20 +3,18 @@ import NuevoProyecto from '../proyectos/NuevoProyecto';
 import ListadoProyectos from '../proyectos/ListadoProyectos';
 
 const Sidebar = () => {
-    return (
+    return ( 
         <aside>
-            <h1><span>tus</span>PROYECTOS</h1>
+            <h1><span>tus</span>Proyectos</h1>
 
             <NuevoProyecto />
 
             <div className="proyectos">
-                <h2>Elige tu proyecto</h2>
-
+                <h2>Tus Proyectos</h2>
                 <ListadoProyectos />
-
             </div>
         </aside>
-    );
+     );
 }
  
 export default Sidebar;

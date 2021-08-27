@@ -1,4 +1,4 @@
-import { MOSTRAR_ALERTA, OCULTAR_ALERTA } from '../../types';
+import { MOSTRAR_ALERTA, OCULTAR_ALERTA} from '../../types';
 
 // eslint-disable-next-line
 export default (state, action) => {
@@ -13,5 +13,5 @@ export default (state, action) => {
             }
         default:
             return state;
-    };
-};
+    }
+}

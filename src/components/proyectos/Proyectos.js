@@ -7,22 +7,22 @@ import AuthContext from '../../context/autenticacion/authContext';
 
 const Proyectos = () => {
 
-    //extraer info autenticación
+    // Extraer la información de autenticación
     const authContext = useContext(AuthContext);
     const { usuarioAutenticado } = authContext;
 
     useEffect(() => {
         usuarioAutenticado();
         // eslint-disable-next-line
-    }, []);
+    }, [])
 
-    return (
+    return ( 
         <div className="contenedor-app">
             <Sidebar />
 
             <div className="seccion-principal">
                 <Barra />
-                                
+
                 <main>
                     <FormTarea />
 
@@ -31,9 +31,8 @@ const Proyectos = () => {
                     </div>
                 </main>
             </div>
-
         </div>
-    );
+     );
 }
  
 export default Proyectos;

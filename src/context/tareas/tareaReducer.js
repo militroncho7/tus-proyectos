@@ -1,4 +1,4 @@
-import {
+import { 
     TAREAS_PROYECTO,
     AGREGAR_TAREA,
     VALIDAR_TAREA,
@@ -8,7 +8,7 @@ import {
     LIMPIAR_TAREA
 } from '../../types';
 
-//eslint-disable-next-line
+// eslint-disable-next-line
 export default (state, action) => {
     switch(action.type) {
         case TAREAS_PROYECTO:
@@ -30,12 +30,12 @@ export default (state, action) => {
         case ELIMINAR_TAREA:
             return {
                 ...state,
-                tareasproyecto: state.tareasproyecto.filter(tarea => tarea._id !== action.payload)
+                tareasproyecto: state.tareasproyecto.filter(tarea => tarea._id !== action.payload )
             }
         case ACTUALIZAR_TAREA:
             return {
                 ...state,
-                tareasproyecto: state.tareasproyecto.map(tarea => tarea._id === action.payload._id ? action.payload : tarea)
+                tareasproyecto: state.tareasproyecto.map(tarea => tarea._id === action.payload._id ? action.payload : tarea )
             }
         case TAREA_ACTUAL:
             return {

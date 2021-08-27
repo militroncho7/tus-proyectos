@@ -1,31 +1,33 @@
-import React, { useContext, useEffect } from 'react';
+import React, {useContext, useEffect} from 'react';
 import AuthContext from '../../context/autenticacion/authContext';
+
 
 const Barra = () => {
 
-    //extraer info autenticación
+    // Extraer la información de autenticación
     const authContext = useContext(AuthContext);
-    const { usuario, usuarioAutenticado, cerrarSesion } = authContext;
+    const { usuario, usuarioAutenticado, cerrarSesion  } = authContext;
 
-    //la primera vez no trae al usuario. Por eso necesitamos que recargue la info con un useEffect
-    //de esta manera actualizamos y aparece el nombre del usuario en la barra
     useEffect(() => {
         usuarioAutenticado();
         // eslint-disable-next-line
     }, []);
 
-    return (
+
+
+    return ( 
         <header className="app-header">
-            { usuario ? <p className="nombre-usuario">Hola <span>{usuario.nombre}</span></p> : null }
+            {usuario ? <p className="nombre-usuario">Hola <span>{usuario.nombre} </span> </p> : null}
+            
 
             <nav className="nav-principal">
-                <button
+                <button 
                     className="btn btn-blank cerrar-sesion"
-                    onClick={ () => cerrarSesion() }
-                >Cerrar sesión</button>
+                    onClick={() => cerrarSesion() }
+                >Cerrar Sesión</button>
             </nav>
         </header>
-    );
+     );
 }
  
 export default Barra;
