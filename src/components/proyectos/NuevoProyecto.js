@@ -52,7 +52,7 @@ const NuevoProyecto = () => {
             <button
                 type="button"
                 className="btn btn-block btn-primario"
-                onClick={ onClickFormulario }
+                onClick={ () => onClickFormulario() }
             >Nuevo proyecto</button>
 
             {

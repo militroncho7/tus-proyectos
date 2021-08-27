@@ -11,6 +11,7 @@ const Barra = () => {
     //de esta manera actualizamos y aparece el nombre del usuario en la barra
     useEffect(() => {
         usuarioAutenticado();
+        // eslint-disable-next-line
     }, []);
 
     return (
