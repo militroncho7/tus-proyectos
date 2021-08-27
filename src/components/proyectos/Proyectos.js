@@ -4,6 +4,7 @@ import Barra from '../layout/Barra';
 import FormTarea from '../tareas/FormTarea';
 import ListadoTareas from '../tareas/ListadoTareas';
 import AuthContext from '../../context/autenticacion/authContext';
+import Footer from '../layout/Footer';
 
 const Proyectos = () => {
 
@@ -30,6 +31,7 @@ const Proyectos = () => {
                         <ListadoTareas />
                     </div>
                 </main>
+                <Footer />
             </div>
         </div>
      );
